@@ -1,8 +1,15 @@
 import React from 'react'
+import { Outlet } from 'react-router-dom'
 
 const Instructor = () => {
   return (
-    <div>Instructor</div>
+    <div>
+      <h1>Instructor</h1>
+      <div>
+        {<Outlet/>}
+
+      </div>
+    </div>
   )
 }
 
