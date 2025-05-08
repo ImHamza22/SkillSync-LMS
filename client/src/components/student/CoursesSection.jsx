@@ -12,10 +12,10 @@ const CoursesSection = () => {
     <div className='py-16 md:px-40 px-8'>
         <h2 className='text-3xl font-medium text-gray-800"'>Learn from the Best</h2>
         <p className='text-sm md:text-base text-gray-500 mt-3'>Explore our highest-rated courses across a wide range of categories.
-        Whether you're interested in coding, design, business, or wellness, each course is designed to help you achieve real results.
+        Whether you're interested in coding, design, business, or wellness, <br /> each course is designed to help you achieve real results.
         </p>
 
-      <div>
+      <div className='grid grid-cols-auto px-4 md:px-0 md:my-16 my-10 gap-4'>
         {allCourses.slice(0,4).map((course, index)=> <CourseCard key={index} course={course}/>)}
       </div>
 
