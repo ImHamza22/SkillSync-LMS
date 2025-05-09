@@ -10,6 +10,7 @@ export const AppCotextProvider = (props)=>{
     const navigate = useNavigate()
 
     const [allCourses, setAllCourses] = useState([])
+    
 
     //Fetch All Courses
     const fetchAllCourses = async ()=>{
