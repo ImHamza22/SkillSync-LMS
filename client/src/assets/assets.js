@@ -91,7 +91,7 @@ export const assets = {
     lesson_icon
 }
 
-export const dummyEducatorData = {
+export const dummyInstructorData = {
     "_id": "675ac1512100b91a6d9b8b24",
     "name": "GreatStack",
     "email": "user.greatstack@gmail.com",
@@ -267,7 +267,7 @@ export const dummyCourses = [
                 ]
             }
         ],
-        "educator": "675ac1512100b91a6d9b8b24",
+        "instructor": "675ac1512100b91a6d9b8b24",
         "enrolledStudents": [
             "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
             "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
@@ -340,7 +340,7 @@ export const dummyCourses = [
                 ]
             }
         ],
-        "educator": "675ac1512100b91a6d9b8b24",
+        "instructor": "675ac1512100b91a6d9b8b24",
         "enrolledStudents": [
             "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
             "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
@@ -412,7 +412,7 @@ export const dummyCourses = [
                 ]
             }
         ],
-        "educator": "675ac1512100b91a6d9b8b24",
+        "instructor": "675ac1512100b91a6d9b8b24",
         "enrolledStudents": [
             "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
             "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
@@ -478,7 +478,7 @@ export const dummyCourses = [
                 ]
             }
         ],
-        "educator": "675ac1512100b91a6d9b8b24",
+        "instructor": "675ac1512100b91a6d9b8b24",
         "enrolledStudents": [
             "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
             "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
@@ -544,7 +544,7 @@ export const dummyCourses = [
                 ]
             }
         ],
-        "educator": "675ac1512100b91a6d9b8b24",
+        "instructor": "675ac1512100b91a6d9b8b24",
         "enrolledStudents": [
             "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
         ],
@@ -609,7 +609,7 @@ export const dummyCourses = [
                 ]
             }
         ],
-        "educator": "675ac1512100b91a6d9b8b24",
+        "instructor": "675ac1512100b91a6d9b8b24",
         "enrolledStudents": [
             "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
             "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
@@ -682,7 +682,7 @@ export const dummyCourses = [
                 ]
             }
         ],
-        "educator": "675ac1512100b91a6d9b8b24",
+        "instructor": "675ac1512100b91a6d9b8b24",
         "enrolledStudents": [
             "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
         ],
@@ -747,7 +747,7 @@ export const dummyCourses = [
                 ]
             }
         ],
-        "educator": "675ac1512100b91a6d9b8b24",
+        "instructor": "675ac1512100b91a6d9b8b24",
         "enrolledStudents": [
             "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
         ],
