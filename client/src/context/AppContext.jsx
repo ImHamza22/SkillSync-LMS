@@ -10,6 +10,7 @@ export const AppCotextProvider = (props)=>{
     const navigate = useNavigate()
 
     const [allCourses, setAllCourses] = useState([])
+    const [isInstructor, setisInstructor] = useState(true)
     
 
     //Fetch All Courses
@@ -35,7 +36,8 @@ export const AppCotextProvider = (props)=>{
     },[])
 
     const value = {
-        currency, allCourses, navigate, calculateRating
+        currency, allCourses, navigate, calculateRating,
+        isInstructor, setisInstructor
 
     }
 

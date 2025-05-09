@@ -6,7 +6,7 @@ import { AppCotext } from '../../context/AppContext'
 
 const navbar = () => {
 
-  const {navigate} = useContext(AppCotext)
+  const {navigate, isInstructor} = useContext(AppCotext)
 
   const isCourseListPage = location.pathname.includes('/course-list');
 
@@ -23,7 +23,7 @@ const navbar = () => {
 
            { user && <>
             
-            <button>Become Instuctor</button>
+            <button onClick={()=> {navigate('/instructor')}}>{isInstructor ? 'Instructor Dashboard' : 'Become Instructor'}</button>
             | <Link to='my-enrollments'>My Enrollments</Link>
             </>
             }
@@ -38,7 +38,7 @@ const navbar = () => {
               <div className='flex items-center gap-1 sm:gap-2 max-sm:text-xs'>
               { user && <>
             
-                <button>Become Instuctor</button>
+                <button onClick={()=> {navigate('/instructor')}}>{isInstructor ? 'Instructor Dashboard' : 'Become Instructor'}</button>
             | <Link to='my-enrollments'>My Enrollments</Link>
             </>
             }
