@@ -1,0 +1,27 @@
+import React, { useContext } from 'react'
+import { Link } from 'react-router-dom'
+import { UserButton, useUser } from '@clerk/clerk-react'
+import { assets } from '../../assets/assets'
+import { AppContext } from '../../context/AppContext'
+
+const Navbar = ({ bgColor = 'bg-white' }) => {
+  const { isAdmin } = useContext(AppContext)
+  const { user } = useUser()
+
+  if (!isAdmin || !user) return null
+
+  return (
+    <div className={`flex items-center justify-between px-4 md:px-8 border-b border-gray-500 py-3 ${bgColor}`}>
+      <Link to="/">
+        <img src={assets.logo} alt="Logo" className="w-28 lg:w-32" />
+      </Link>
+
+      <div className="flex items-center gap-5 text-gray-500 relative">
+        <p>Admin: {user.fullName}</p>
+        <UserButton />
+      </div>
+    </div>
+  )
+}
+
+export default Navbar
